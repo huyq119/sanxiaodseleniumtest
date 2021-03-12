@@ -1,0 +1,6 @@
+pytest
+requests
+selenium
+allure-pytest
+pytest-testconfig
+urllib3
