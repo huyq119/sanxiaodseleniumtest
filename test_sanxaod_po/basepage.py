@@ -37,7 +37,7 @@ class BasePage():
             self._driver = webdriver.Chrome(executable_path=_config.get('driver', 'chrome_driver'), options=_chrome_options)
             self._driver.maximize_window()
             self._driver.implicitly_wait(4)
-            self._get_cookies_sanxiaod()
+            # self._get_cookies_sanxiaod()
             self._cookie_login()
         else:
             self._driver = _base_driver
